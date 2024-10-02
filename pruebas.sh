@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 mkdir "AutomaticoGIt"
 git init
 touch "AutomaticoGIt/README.md"
