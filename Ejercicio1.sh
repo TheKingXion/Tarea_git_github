@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 read -p "Ingresa el nombre de tu carpeta: " nombre_folder
 mkdir "$nombre_folder"
 cd "$nombre_folder" 
