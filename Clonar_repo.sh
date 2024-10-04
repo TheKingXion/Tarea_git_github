@@ -7,10 +7,10 @@ read -p "Ingresa el nombre de la rama : " branch_name
 # Clonar el repositorio
 git clone "$repo_url"
 
-# Extraer el nombre del repositorio (la última parte de la URL sin .git)
+# Extraer el nombre del repositorio
 repo_name=$(basename "$repo_url" .git)
 
-# Cambiar al directorio del repositorio clonado
+# Cambiar al directorio clonado
 cd "$repo_name" || { echo "No se pudo acceder al repositorio clonado"; exit 1; }
 
 git checkout "$branch_name"
