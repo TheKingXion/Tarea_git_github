@@ -77,7 +77,7 @@ subir_cambios(){
 
 while true; do
     mostrar_menu
-    read -p "Seleccione una opción (1-5): " opcion
+    read -p "Seleccione una opción (1-6): " opcion
 
     case $opcion in
         1)
@@ -100,7 +100,7 @@ while true; do
             exit 0
             ;;
         *)
-            echo "Opción no válida. Por favor, seleccione una opción entre 1 y 5."
+            echo "Opción no válida. Por favor, seleccione una opción entre 1 y 6. "
             ;;
     esac
 
