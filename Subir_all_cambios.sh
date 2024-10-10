@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /d "C:\Users\Xion\Desktop\Proyecto_Final\Proyecto_Final"
+
 read -p "Ingresa el mensaje del commit: " mensaje
 
 git add .
