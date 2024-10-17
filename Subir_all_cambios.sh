@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /d "C:\Users\Xion\Desktop\Proyecto_Final\Proyecto_Final"
+read -p "ingrese la ruta" ruta
+
+cd "$ruta"
 
 read -p "Ingresa el mensaje del commit: " mensaje
 

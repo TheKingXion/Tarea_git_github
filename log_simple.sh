@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /d "C:\Users\Xion\Desktop\Proyecto_Final\Proyecto_Final"
+read -p "ingrese la ruta" ruta
+
+cd "$ruta"
 
 if [ -d ".git" ]; then
   echo "Mostrando el historial de commits recientes..."

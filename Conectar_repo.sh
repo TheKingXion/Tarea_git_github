@@ -1,4 +1,5 @@
 #!/bin/bash
+
 read -p "ingrese la url de la pagina a conectar : " URL 
 read -p "Ingrese el nombre de la rama para entrar (o crear) : " rama
 

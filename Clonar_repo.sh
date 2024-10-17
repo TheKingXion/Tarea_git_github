@@ -1,5 +1,9 @@
 #!/bin/bash
 
+read -p "ingrese la ruta" ruta
+
+cd "$ruta"
+
 read -p "Ingresa la URL del repositorio a clonar: " repo_url
 
 read -p "Ingresa el nombre de la rama : " branch_name

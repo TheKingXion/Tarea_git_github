@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /d "C:\Users\Xion\Desktop\Proyecto_Final\Proyecto_Final"
+cd "C:\Users\Xion\Desktop\Proyecto_Final\Proyecto_Final"
 
 # Revisar si estás dentro de un repositorio Git
 if [ -d ".git" ]; then
